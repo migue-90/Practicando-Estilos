@@ -1,0 +1,165 @@
+/*variable*/
+
+/*colores*/
+
+/*rojo:#ec2028*/
+/*color:grisclaro: #f7f7f7
+/*color:gris oscuro: #848484
+/*color:grisclaro: #a6a6a6
+*/
+
+/*medidas
+
+ contenedor: 62rem
+ texto:1rem
+ titulo:2rem
+*/
+
+/*generales*/
+
+body {
+    font-family: "open sans", sans-serif;
+    color: #848484;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "comme", sans-serif;
+}
+
+/*componentes*/
+
+.container{
+    max-width: 62rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.header {
+    border-bottom: 1px solid #a6a6a6;
+    padding: 1rem 0;
+}
+
+.header__brand {
+    color: #ec2028;
+    font-weight: normal;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__brand-simple {
+    font-weight: bold;
+}
+
+.strong {
+    display: inline-block;
+    padding: .3rem;
+    background-color: #ec2028;
+    color: #fff;
+}
+
+.guion {
+    display: inline-block;
+    border-top: 1px solid black;
+    width: 1rem;
+    height:.3rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link--single-title, .link--single-summary {
+    border-bottom: 2px solid #a6a6a6;
+    padding-bottom: .1rem;
+}
+
+.link--single-title, .link--single-summary {
+    text-decoration: none;
+}
+
+.link--single-summary {
+    font-style: italic;
+}
+
+.link {
+    color: #ec2028;
+    text-decoration:none;
+}
+
+.header {
+    font-wight: bold;
+}
+
+/*pagina de inicio*/
+
+.hero {
+    padding: 2rem 0;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.hero p {
+    margin: 0;
+}
+
+.blog {
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+
+}
+
+.blog__title {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.single {
+    padding: 2rem 0;
+    border-bottom: 1px solid #848484;
+    line-height: 1.5rem;
+}
+.single--last {
+    border: 0;
+}
+
+.single__hgroup p {
+    display: inline;
+}
+.single__hgroup {
+    display: inline;
+}
+
+.single__title {
+    display: inline;
+    font-size: 1rem;
+}
+
+.single__summary {
+    display: inline;
+
+}
+
+.single__created {
+    color: #a6a6a688;
+    font-stle: italic;
+}
+
+/*footer*/
+
+<link
+    rel="apple-touch-icon"
+    sizes="152x152"
+    href="img/touch-icon-ipad.png"
+>
+
+<link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="img/touch-icon-iphone-retina.png"
+>
+
+<link
+    rel="apple-touch-icon"
+    sizes="167x167"
+    href="img/touch-icon-ipad-retina.png"
+>

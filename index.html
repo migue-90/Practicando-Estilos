@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- Hace saber al navegador que la página esta en castellano -->
+<html lang="es">
+<!--Configuraciones-->
+<head>
+    <!-- Permite carácteres extraños del alfabeto americano: ñ, á, é... -->
+    <meta charset="utf-8">
+    <!--Título que aparecerá en la pestaña - La estructura será el nombre de la página actual + Descripción del sitio-->
+    <title>Blog Simple</title>
+    <!-- Icono que acompañará al title. También será el icono que se guardará a la hora de que hagan un marcador. Se recomienda un tamaño de 32x32 y en PNG	-->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <!-- (Opcional: Solo Safari) Previsualización en marcadores -->
+    <link rel="apple-touch-icon" sizes="152x152" href="img/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/touch-icon-ipad-retina.png">
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme&family=Josefin+Sans:wght@100&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- (Opcional) Sugiere un color al navegador para personalizar la ventana en general -->
+    <meta name="theme-color" content="#fff">
+    <!-- (Opcional) Sugiere un color al navegador para personalizar la ventana en modo claro -->
+    <meta name="theme-color"
+          content="#fff"
+          media="(prefers-color-scheme: light)">
+    <!-- (Opcional) Sugiere un color al navegador para personalizar la ventana en modo oscuro -->
+    <meta name="theme-color"
+          content="#fff"
+          media="(prefers-color-scheme: dark)">
+    <!-- Bloquea el zoom en smartphones-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!--Declara quien es el autor. Sin utilidad práctica -->
+    <meta name="author" content="miguel angel">
+    <!-- (Opcional) Indica con que tecnologias se ha generado el HTML -->
+    <!-- Declara palabras claves -->
+    <meta name="keywords" content="html, css, javascript, blog">
+    <!-- Declara la descripción de la web. Es utilizado por los motores de busqueda para la previa -->
+    <meta name="description" content="es un ejemplo de mis capacidades de mi diseño web">
+    <!-- Open Graph y Twitter card: Declara como se mostrará la previa del enlace si es compartida por Facebook o alguna otra red social -->
+    <meta property="og:image" content="img/miniatura.png">
+    <meta property="og:title" content="Blog Simple">
+    <!-- website, video, audio, article, book o profile -->
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="ejemplo css">
+    <meta name="twitter:site" content="@cuenta">
+    <meta name="twitter:creator" content="@cuenta">
+    <!-- Open Graph Imagen completa (Opcional) -->
+    <meta property="og:image:secure_url" content="https://secure.example.com/ogp.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
+    <meta property="og:image:alt" content="A shiny red apple with a bite taken out">
+    <!-- Normalizador normalize.css: Equilibra los estilos entre los Navegadores -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Tus archivos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<!--Contenido de la web-->
+    <body>
+        <header class="header">
+            <div class="container">
+                <a class="header__brand" >Practiando <span class="header__brand-simple">estilos</span></a>
+            </div>
+        </header>
+        <main class="main">
+                <section class="hero">
+                    <div class="container">
+                    <p class="hero__text">Hola, me llamo <strong class="strong">Miguel Angel</strong></p>
+                    <p class="hero__text">Esta web es pura práctica</p>
+                    <a href="#" class="link">Sobre mí</a>
+                    </div>
+                </section>
+                <section class="blog">
+                    <div class="container">
+                    <h1 class="blog__title">Mis artículos</h1>
+                    <article class="single">
+                        <hgroup class="single__hgroup">
+                        <p>
+                            <time class=single__created datetime="2023-1-4">enero 4, 2023</time>
+                            <span class="guion"></span>
+                        </p>
+                        <h2 class="single__title"><a href="#" class="link link--single-title">Bienvenidos a mi blog</a>
+                        </h2><span class="guion"></span>
+                        </hgroup>
+                        <p class="single__summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, aut cumque deleniti dolorem esse et facilis fugiat itaque laboriosam libero magni quidem quo repellat repellendus sunt suscipit, temporibus totam, voluptatem?
+                            <a href="#" class="link link--single-summary">leer mas</a></p>
+                    </article>
+                    <article class="single">
+                        <hgroup class="single__hgroup">
+                            <p>
+                            <time class=single__created datetime="2023-5-2">mayo 2, 2023</time>
+                            <span class="guion"></span>
+                            </p>
+                            <h2 class="single__title"><a href="#" class="link link--single-title">Aquí te cuento cosas</a></h2>
+                            <span class="guion"></span>
+                        </hgroup>
+                        <p class="single__summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, aut cumque deleniti dolorem esse et facilis fugiat itaque laboriosam libero magni quidem quo repellat repellendus sunt suscipit, temporibus totam, voluptatem?
+                            <a href="#" class="link link--single-summary">leer mas</a></p>
+                    </article>
+                    <article class="single">
+                        <hgroup class="single__hgroup">
+                            <p>
+                            <time class=single__created datetime="2023-10-6">octubre 6, 2023</time>
+                            <span class="guion"></span>
+                            </p>
+                            <h2 class="single__title"><a href="#" class="link link--single-title">Descripciones</a></h2>
+                            <span class="guion"></span>
+                        </hgroup>
+                        <p class="single__summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, aut cumque deleniti dolorem esse et facilis fugiat itaque laboriosam libero magni quidem quo repellat repellendus sunt suscipit, temporibus totam, voluptatem?
+                            <a href="#" class="link link--single-summary">leer mas</a></p>
+                    </article>
+                    <article class="single single--last">
+                        <hgroup class="single__hgroup">
+                            <p>
+                            <time class=single__created datetime="2023-6-10">junio 10, 2023</time>
+                            <span class="guion"></span>
+                            </p>
+                            <h2 class="single__title"><a href="#" class="link link--single-title">Y para finalizar</a></h2>
+                            <span class="guion"></span>
+                        </hgroup>
+                        <p class="single__summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, aut cumque deleniti dolorem esse et facilis fugiat itaque laboriosam libero magni quidem quo repellat repellendus sunt suscipit, temporibus totam, voluptatem?
+                            <a href="#" class="link link--single-summary">leer mas</a></p>
+                    </article>
+                    </div>
+                </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <p class="footer__text">@2023 Hecho con HTML, CSS y &hate</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
